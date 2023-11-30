@@ -64,7 +64,28 @@
     <!-- /.Footer -->
 
     <!-- Modals -->
-    <!-- ... (your modals content here) ... -->
+    <!-- Modals -->
+    <div id="modals">
+        <div class="modal fade" id="quicklinkmodal" tabindex="-1" role="dialog" aria-labelledby="quicklinklabel" aria-hidden="true">
+            <!-- Change class .modal-sm to change the size of the modal -->
+            <div class="modal-dialog modal-fluid w-75" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title w-100" id="quicklinklabel">QuickLink</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Create a Quicklink</h2>
+                        <hr>
+                        <p>If you want to lead your users to download directly without them having to interact with the site you can create a quicklink that will start to process the video immediatly after opening the site.</p>
+                        <hr>
+                        <input type="url" id="qlurl" class="form-control form-control-lg mb-2" placeholder="Insert URL here" value="https://www.youtube.com/watch?v=iSshSXte2XI">
+                        <hr><input type="url" value="https://DOWNLOADER.com/?ql=1&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiSshSXte2XI" id="quicklink" class="form-control form-control-lg mr-sm-2 mb-2 mb-sm-0" placeholder="Insert URL here">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!-- SCRIPTS -->
     <!-- jQuery -->
